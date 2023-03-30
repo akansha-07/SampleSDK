@@ -148,7 +148,7 @@
 				93E8B02F29D60799007D1537 /* Assets.xcassets */,
 				93E8B03129D60799007D1537 /* LaunchScreen.storyboard */,
 				93E8B03429D60799007D1537 /* Info.plist */,
-				93E8B05629D609EB007D1537 /* SampleAppInteractor.swift */,
+				93E8B05829D60C10007D1537 /* IInteractor */,
 			);
 			path = SampleSDK;
 			sourceTree = "<group>";
@@ -168,6 +168,14 @@
 				93E8B04929D60799007D1537 /* SampleSDKUITestsLaunchTests.swift */,
 			);
 			path = SampleSDKUITests;
+			sourceTree = "<group>";
+		};
+		93E8B05829D60C10007D1537 /* IInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				93E8B05629D609EB007D1537 /* SampleAppInteractor.swift */,
+			);
+			path = IInteractor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
