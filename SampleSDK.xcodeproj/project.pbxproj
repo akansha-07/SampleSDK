@@ -18,6 +18,7 @@
 		93E8B03E29D60799007D1537 /* SampleSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E8B03D29D60799007D1537 /* SampleSDKTests.swift */; };
 		93E8B04829D60799007D1537 /* SampleSDKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E8B04729D60799007D1537 /* SampleSDKUITests.swift */; };
 		93E8B04A29D60799007D1537 /* SampleSDKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E8B04929D60799007D1537 /* SampleSDKUITestsLaunchTests.swift */; };
+		93E8B05729D609EB007D1537 /* SampleAppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E8B05629D609EB007D1537 /* SampleAppInteractor.swift */; };
 		D6BF5FC14E0210D135CDE444 /* Pods_SampleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD5BA777968D2DBAD57F4AE /* Pods_SampleSDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		93E8B04329D60799007D1537 /* SampleSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E8B04729D60799007D1537 /* SampleSDKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSDKUITests.swift; sourceTree = "<group>"; };
 		93E8B04929D60799007D1537 /* SampleSDKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSDKUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93E8B05629D609EB007D1537 /* SampleAppInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppInteractor.swift; sourceTree = "<group>"; };
 		AB80F3D7ABB892D090BC1F93 /* Pods-SampleSDK-SampleSDKUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleSDK-SampleSDKUITests.release.xcconfig"; path = "Target Support Files/Pods-SampleSDK-SampleSDKUITests/Pods-SampleSDK-SampleSDKUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BDD5BA777968D2DBAD57F4AE /* Pods_SampleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBADA3D67D2C49ACF37A4A1 /* Pods-SampleSDK-SampleSDKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleSDK-SampleSDKUITests.debug.xcconfig"; path = "Target Support Files/Pods-SampleSDK-SampleSDKUITests/Pods-SampleSDK-SampleSDKUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +103,6 @@
 				5DA916627D8D6AA49471C1D4 /* Pods-SampleSDKTests.debug.xcconfig */,
 				FFD17CA4D2D2D0B53D949576 /* Pods-SampleSDKTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,6 +148,7 @@
 				93E8B02F29D60799007D1537 /* Assets.xcassets */,
 				93E8B03129D60799007D1537 /* LaunchScreen.storyboard */,
 				93E8B03429D60799007D1537 /* Info.plist */,
+				93E8B05629D609EB007D1537 /* SampleAppInteractor.swift */,
 			);
 			path = SampleSDK;
 			sourceTree = "<group>";
@@ -373,6 +375,7 @@
 			files = (
 				93E8B02B29D60798007D1537 /* ViewController.swift in Sources */,
 				93E8B02729D60798007D1537 /* AppDelegate.swift in Sources */,
+				93E8B05729D609EB007D1537 /* SampleAppInteractor.swift in Sources */,
 				93E8B02929D60798007D1537 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
